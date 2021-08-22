@@ -1,0 +1,42 @@
+.dropdown {
+    width: 209px;
+    height: 45px;
+}
+.dropdown .dt {
+    height: 100%;
+    background-color: #14489c;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    line-height: 45px;
+}
+.dropdown .dd {
+    height: 465px;
+    background-color: rgb(97, 96, 96);
+    /*margin-top: 2px;*/
+}
+
+.menu_item:hover {
+    background-color: #fff;
+}
+/*鼠标经过li 里面的 a变颜色*/
+.menu_item:hover a {
+    color: #260bc2;
+}
+.menu_item {
+    height: 50px;
+    line-height: 50px;
+    margin-left: 1px;
+    padding: 0 50px;
+    transition: all .5s;
+}
+.menu_item a {
+    font-size: 16px;
+    color: #fff;
+}
+.menu_item i {
+    float: right;
+    font-family: 'icomoon';
+    font-size: 18px;
+    color: #fff;
+}

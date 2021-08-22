@@ -1,0 +1,43 @@
+
+body {
+  background: #2a9ead;
+}
+
+.top .title {
+  margin: 0;
+  padding: 20px;
+  background-color: #2a9ead;
+}
+.box {
+    margin: 1px auto;
+    width: 100%;
+    heigth: 100%;
+}
+.box .box-item {
+  border-bottom: 1px solid #666;
+  color: #eee;
+}
+.box .title {
+  margin: 0;
+  padding: 15px;
+  background-color: #2a9ead;
+}
+.box-item-content{
+    height: 0;
+    overflow: hidden;
+    background-color: #222222;
+    margin: 0;
+    padding-left: 20px;
+    transition: 0.5s;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    padding-top: 5px;
+}
+.box:hover .box-item:hover .box-item-content {
+    height: 100px;
+}
+
+

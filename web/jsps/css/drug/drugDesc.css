@@ -1,0 +1,11 @@
+a {text-decoration: none; color: #018BD3;}
+a:visited {color: #018BD3;}
+a:hover {color:#ff0048; text-decoration: underline;}
+td{height: 40px;}
+.divBookName {font-size: 13pt; font-weight: 900; margin-bottom: 30px; margin-left: 30px}
+/*.img_image_w {border: 1px solid #dcdcdc; float: left;}*/
+.divBookdrugDesc{float:left;}
+.spanPrice {text-decoration:line-through;}
+.hr1{margin-left: 50px; height: 1px; color: #dcdcdc;}
+.price_n {color: #c30; font-weight: bold; padding-right: 10px; font-family: Arial; font-size: 20pt; }
+.divForm {border: 1px solid #dcdcdc;background-color: #f5f5f5;padding:20px;}
